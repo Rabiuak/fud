@@ -1,0 +1,663 @@
+
+html body{
+	margin: 0;
+	padding: 0vw 6vw;
+	background-color: rgb(243, 239, 239);
+	overflow-x: hidden; 	
+}
+.hr{
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #0f6704;
+	border-width: 0.4em;
+	width: 55%;
+	margin: 0 auto;
+} 
+/*=====================Header=====================*/
+.header{
+	background-color: #0f6704/*green*/;
+	/*background: linear-gradient(to bottom, gold, green, gold, green, gold, green);*/
+    border-radius: 0.5vw 0.5vw 0.1vw 0.1vw;
+    color: #fff;
+    width: 100%;
+    height: 7vw;
+    clear: both;
+	font-family: serif;
+	padding: 0.5vw 0em 0.3vw 0em;
+}
+.header h1{
+	font-size: 3vw;
+	text-align: center;
+	font-weight: 600;
+	line-height: 0.85;
+	letter-spacing: 0.15em;
+}
+.header h6{
+	font-size: 1.7vw;
+	text-align: center;
+	margin: 3% 0 0 0;
+	font-weight: 500;
+	line-height: 0.5;
+	letter-spacing: 0.1em;
+	font-family: courier;
+}
+.header img{
+	width: 9.5vw;
+	height: 8vw;
+	float: left;
+	margin-top:-1.2vw;
+}
+
+/*=====================nav Link=====================*/
+.link{
+	background-color: #d19013;
+	height: 3.5vw;
+	border-radius:0.2em;
+	width: 100%;
+	margin-bottom: -0.2vw;
+}
+.link ul{
+	text-align: center;
+	margin-right: 14vw;
+}
+.link li{
+	list-style-type: none;
+	display: inline-block;
+	border: 2px solid #fff;
+	margin: 0.5vw 0.4vw;
+	font-size: 1.4vw;
+	border-radius: 0.4em;
+	background-color: #000;    
+}
+.link li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	padding: 0.2vw 0.7vw;
+}
+.link li:hover{
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+}
+
+/*============================= fac&cour =============================*/
+.fac_cour{
+	width: 100%;
+	height: 35.5vw;
+}
+/*============================= fac ===========================*/
+.fac{
+	width: 35%;
+	background-color: #f3aa21fd;
+	float: left;
+	height: 35.5vw;
+}
+.fac li{
+	margin: 1.35vw 0 0 -1.2vw;
+	font-size: 2vw;
+	background-color: green;
+	list-style-type: none;
+	text-align: center;
+	width: 99%;
+	color: #fff;
+	font-weight: 600;
+	font-family: serif;
+	padding: 0.22vw 0;
+	box-shadow: 1px 7px 15px; 
+}
+.fac li:hover{
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+	opacity: 0.8;
+}
+
+/*============================= courses txt =============================*/
+.courses_txt{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/lib.jfif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+}
+.courses_txt h2{
+	background-color: #0f6704;
+	color: #fff;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.4vw;
+	margin: 1.5vw 0;
+}
+.content1_text{
+	font-size: 1.5vw;
+	width: 92%;
+	background-color: rgb(241, 235, 235);
+	color: rgb(5, 5, 5);
+	opacity: 0.55;
+	padding: 0.7em 1.2em;
+	border-radius: 0.2em;
+	height: 19.5vw;
+	text-align: justify;
+	margin: 10.5% 4% 1.5% 4%;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	border-radius: 0.2em;
+}
+.content2_text{
+	font-size: 1.5vw;
+	width: 92%;
+	background-color: rgb(241, 235, 235);
+	color: rgb(5, 5, 5);
+	opacity: 0.55;
+	padding: 0.7em 1.2em;
+	border-radius: 0.2em;
+	height: 6vw;
+	text-align: justify;
+	margin: 1.5% 4% 3% 4%;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	border-radius: 0.2em;
+}
+/*========================= fag =========================*/
+.fag_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/fag.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fag_cour h2{
+	background-color: #0f6704;
+	color: #fff;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.5vw;
+	margin-top: 2vw;
+}
+.ag{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 2% 10%;
+	float: left;
+}
+.faq{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 2% 0;
+	float: right;
+}
+.fw{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 4% 10%;
+	float: left;
+}
+.aee{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 4% 0;
+	float: right;
+}
+/*================== fag images $ Text ================*/
+.ag img,.faq img,.fw img,.aee img{
+	width: 100%;
+	height: 85%;
+}
+.ag h5,.faq h5,.fw h5,.aee h5{
+	width: 100%;
+	height: 15%;
+	background-color: #0f6704;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4vw;
+}
+
+/*========================= fass =========================*/
+.fass_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/fass.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fass_cour h2{
+	background-color: violet;
+	color: #000;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.1vw;
+	margin-top: 2vw;
+}
+.css{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 4.5%;
+	float: left;
+}
+.eco{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.eng{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.laf{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.len{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.ps{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 4.5%;
+	float: left;
+}
+/*=================  fass images $ Text ==============*/
+.css img,.eco img,.eng img,.laf img,.len img,.ps img{
+	width: 100%;
+	height: 85%;
+}
+.css h5,.eco h5,.eng h5,.laf h5,.len h5,.ps h5{
+	width: 100%;
+	height: 15%;
+	background-color: violet;
+	text-align: center;
+	color: #000;
+	font-size: 1.4vw;
+}
+
+/*========================= fcp =========================*/
+.fcp_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/fcp.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fcp_cour h2{
+	background-color: rgb(129, 39, 39);
+	color: #fff;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.5vw;
+	margin-top: 2vw;
+}
+.cs{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 2% 10%;
+	float: left;
+}
+.sc{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 2% 0;
+	float: right;
+}
+.it{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 4% 10%;
+	float: left;
+}
+.se{
+	width: 35%;
+	height: 35%;
+	margin: 2% 10% 4% 0;
+	float: right;
+}
+/*================ fcs images $ Text ===============*/
+.cs img,.sc img,.it img,.se img{
+	width: 100%;
+	height: 85%;
+}
+.cs h5,.sc h5,.it h5,.se h5{
+	width: 100%;
+	height: 15%;
+	background-color: rgb(129, 39, 39);
+	text-align: center;
+	color: #fff;
+	font-size: 1.4vw;
+}
+
+/*========================= fcs =========================*/
+.fcs_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/faccli.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fcs_cour h2{
+	background-color: rgb(163, 16, 16);
+	color: #fff;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.3vw;
+	margin-top: 2vw;
+}
+.ha{
+	width: 40%;
+	height: 35%;
+	margin: 2% 0% 4% 7%;
+	float: left;
+}
+.hp{
+	width: 40%;
+	height: 35%;
+	margin: 2% 7% 4% 0%;
+	float: right;
+}
+.ms{
+	width: 50%;
+	height: 35%;
+	margin: 2% auto;
+	
+}
+/*================== fcs images $ Text ================*/
+.ha img,.hp img,.ms img{
+	width: 100%;
+	height: 85%;
+}
+.ha h5,.hp h5,.ms h5{
+	width: 100%;
+	height: 15%;
+	background-color: rgb(163, 16, 16);
+	text-align: center;
+	color: #fff;
+	font-size: 1.4vw;
+}
+
+
+/*========================= fsc =========================*/
+.fsc_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/fsc.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fsc_cour h2{
+	background-color:yellow;
+	color: #000;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.5vw;
+	margin-top: 2vw;
+}
+.bch{
+	width: 18%;
+	height: 35%;
+	margin: 11.8% 0% 2% 1.55%;
+	float: left;
+}
+.btg{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.blg{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.btny{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.chm{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1%;
+	float: left;
+}
+.emt{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.mth{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.mcb{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.phy{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+.zlg{
+	width: 18%;
+	height: 35%;
+	margin: 2% 0% 2% 1.55%;
+	float: left;
+}
+/*=================  fsc images $ Text ==============*/
+.bch img,.btg img,.blg img,.btny img,.chm img,.emt img,.mth img,.mcb img,.phy img,.zlg img{
+	width: 100%;
+	height: 85%;
+}
+.bch h5,.btg h5,.blg h5,.btny h5,.chm h5,.emt h5,.mth h5,.mcb h5,.phy h5,.zlg h5{
+	width: 100%;
+	height: 15%;
+	background-color: yellow;
+	text-align: center;
+	color: #000;
+	font-size: 1.4vw;
+}
+
+/*========================= fms =========================*/
+.fms_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/fms.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fms_cour h2{
+	background-color: rgb(59, 59, 192);
+	color: #fff;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2vw;
+	margin-top: 2vw;
+}
+.act{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 4.5%;
+	float: left;
+}
+.acs{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.bkf{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.bad{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.ins{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 5%;
+	float: left;
+}
+.tax{
+	width: 27%;
+	height: 35%;
+	margin: 2% 0% 2% 4.5%;
+	float: left;
+}
+/*=================  fms images $ Text ==============*/
+.act img,.acs img,.bkf img,.bad img,.ins img,.tax img{
+	width: 100%;
+	height: 85%;
+}
+.act h5,.acs h5,.bkf h5,.bad h5,.ins h5,.tax h5{
+	width: 100%;
+	height: 15%;
+	background-color: rgb(59, 59, 192);
+	text-align: center;
+	color: #fff;
+	font-size: 1.4vw;
+}
+
+
+/*========================= fed =========================*/
+.fed_cour{
+	width: 65%;
+	height: 35.5vw;
+	background-color: #fff;
+	background:url(../images/fed.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	float: right;
+	display: none;
+}
+.fed_cour h2{
+	background-color: rgb(138, 26, 138);
+	color: #fff;
+	font-weight: 600;
+	font-family: arial-black;
+	width: 75%;
+	float: right;
+	text-align: center;
+	border-radius: 2vw 0 0 2vw;
+	font-size: 2.3vw;
+	margin-top: 2vw;
+}
+.ism{
+	width: 40%;
+	height: 35%;
+	margin: 2% 0% 4% 7%;
+	float: left;
+}
+.ped{
+	width: 40%;
+	height: 35%;
+	margin: 2% 7% 4% 0%;
+	float: right;
+}
+.lis{
+	width: 50%;
+	height: 35%;
+	margin: 2% auto;
+	
+}
+/*================== fed images $ Text ================*/
+.ism img,.ped img,.lis img{
+	width: 100%;
+	height: 85%;
+}
+.ism h5,.ped h5,.lis h5{
+	width: 100%;
+	height: 15%;
+	background-color: purple;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4vw;
+}
+
+
+/*===================== Footer =====================*/
+.footer{
+	width: 100%;
+	height: 10vw;
+	background-color: #0f6704/*green*/;
+	border-radius: 0.1em 0.1em 0.2em 0.2em;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 1em;
+	overflow: hidden;
+}
+ 
+
