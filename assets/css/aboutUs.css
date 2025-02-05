@@ -83,7 +83,7 @@ html body{
 .content1{
 	/*border: 1px solid red;*/
 	width: 100%;
-	height: 30vw;
+	height: 50vw;
 	background:url(../images/lib.jfif);
 	background-repeat: no-repeat;
 	background-attachment:;
@@ -94,15 +94,18 @@ html body{
 	border-radius: 0.2vw;	
 }
 .content1 h2{
+	position: inherit;
+	margin-top: -20vw;
 	background-color: #d19013;
 	opacity: 0.9;
 	color: #0f6704;
-	font-weight: 800;
+	font-weight: 600;
 	font-family: arial-black;
 	width: 50%;
 	float: right;
 	border-radius: 2vw 0 0 2vw;
-	font-size: 3vw;
+	font-size: 4.5vw;
+	padding: 0 7% 0 0;
 }
 /*=====================content1=====================*/
 .sub_content1{
