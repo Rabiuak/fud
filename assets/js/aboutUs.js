@@ -4,8 +4,8 @@
 
 		var time = 1500;
 		//Image List
-		images[0] = 'assets/images/fudlog2.PNG';
-		images[1] = 'assets/images/fudlog5.jfif';
+		images[0] = '../images/fudlog2.png';
+		images[1] = '../images/fudlog5.jfif';
 		images[2] = '5.jpeg';
 		images[3] = 'Div Style.png';
 
